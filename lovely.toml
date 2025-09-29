@@ -6,10 +6,10 @@ priority = 1
 # Replaces the screen shake slider
 [[patches]]
 [patches.pattern]
-target = "functions/common_events.lua"
-pattern = "local screenshake = create_slider({label = localize('b_set_screenshake'),w = 4, h = 0.4, ref_table = G.SETTINGS, ref_value = 'screenshake', min = 0, max = 100})"
+target = "functions/UI_definitions.lua"
+pattern = "create_slider({label = localize('b_set_screenshake'),w = 4, h = 0.4, ref_table = G.SETTINGS, ref_value = 'screenshake', min = 0, max = 100}),"
 position = "at"
-payload = "local screenshake = create_slider({label = localize('b_set_screenshake'),w = 16, h = 0.4, ref_table = G.SETTINGS, ref_value = 'screenshake', min = 0, max = 10000})"
+payload = "create_slider({label = localize('b_set_screenshake'),w = 16, h = 0.4, ref_table = G.SETTINGS, ref_value = 'screenshake', min = 0, max = 10000}),"
 match_indent = true
 
 # replace first local shake_amt with a capped ease_shake_amt
