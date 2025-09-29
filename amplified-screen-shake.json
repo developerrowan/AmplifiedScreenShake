@@ -1,0 +1,13 @@
+{
+  "id": "AmpliedScreenShake",
+  "name": "Amplied Screen Shake",
+  "author": ["DeveloperRowan"],
+  "description": "With ASS, you can set your screenshake unreasonably high.",
+  "prefix": "ass",
+  "main_file": "amplified-screen-shake.lua",
+  "badge_colour": "d3af37",
+  "priority": 1,
+  "badge_text_colour": "000000",
+  "version": "1.0.1",
+  "dependencies": ["Steamodded (>=1.0.0~BETA-0614a)", "Lovely (>=0.7)"]
+}
